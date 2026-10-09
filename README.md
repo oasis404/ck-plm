@@ -1,4 +1,4 @@
-# 鼎勤科技
+
 
 > 国内首个开源的产品生命周期管理（PLM）平台
 > The First Open-Source PLM Platform in China
@@ -9,7 +9,7 @@
 ![Vue](https://img.shields.io/badge/Vue-3.4-4FC08D)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791)
 
-鼎勤科技 由**鼎勤科技**发起并开源，基于十余年 Windchill 实施经验与架构理解全新构建。面向离散制造业，提供版本控制、BOM 管理、生命周期、软类型扩展、分类体系、功能架构等核心 PLM 能力。
+
 
 > ⚠️ **项目状态**：平台仍在持续构建中（Work In Progress）——核心架构已落地为代码，欢迎克隆体验与参与共建；暂不建议直接用于生产环境。
 
@@ -147,14 +147,14 @@ npm run dev
 
 ## 开源协议
 
-鼎勤科技 采用 [Apache License 2.0](LICENSE) 开源协议，可自由使用、修改与商用，需保留版权声明。
+
 
 ## 联系我们
 
 - **开源社区**：http://ckai-tech.group
-- **公司**：鼎勤科技
+
 - **邮箱**：459024003@qq.com
 
 ---
 
-鼎勤科技 由鼎勤科技开源。我们相信，国产 PLM 需要一个开放的核心来凝聚行业力量，欢迎参与共建。
+
