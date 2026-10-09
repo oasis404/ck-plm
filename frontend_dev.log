@@ -1,0 +1,18 @@
+
+> dingqin-plm-frontend@1.0.0 dev
+> webpack serve --config webpack.config.js --port 8081 --host 0.0.0.0
+
+<i> [webpack-dev-server] [HPM] Proxy created: /api/workflow,/api/modeler  -> http://localhost:8082
+<i> [webpack-dev-server] [HPM] Proxy rewrite rule created: "^/api" ~> ""
+<i> [webpack-dev-server] [HPM] Proxy created: /api  -> http://localhost:8082
+<i> [webpack-dev-server] [HPM] Proxy created: (pathname) => {
+<i>           return /^\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\//.test(pathname);
+<i>         }  -> http://localhost:8082
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8081/, http://[::1]:8081/
+<i> [webpack-dev-server] On Your Network (IPv4): http://10.10.54.33:8081/
+<i> [webpack-dev-server] Content not from webpack is served from 'C:\Users\Chg10\Desktop\ck-plm\frontend\public' directory
+<i> [webpack-dev-server] 404s will fallback to '/index.html'
+46 assets
+3739 modules
+webpack 5.110.3 compiled successfully in 29927 ms

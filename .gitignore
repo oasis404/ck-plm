@@ -1,0 +1,60 @@
+# ===== Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Uploads & Generated =====
+uploads/
+generated-images/
+
+# ===== Environment =====
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# ===== Node (frontend) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# ===== AI/IDE Tools (不进开源仓库) =====
+.codebuddy/
+.playwright-cli/
+.workbuddy/
+.ai-memory/
+
+# ===== 本地工具链（含 9MB 的 Maven 安装包，绝不能提交） =====
+.tools/
+
+# =====本地调试脚本与运行产物 =====
+app.err
+check_users.py
+verify.py
+verify_task.py
+diag.ps1
+start.ps1
+restart.ps1
+$null
+
+# ===== 生产环境变量（含数据库口令） =====
+deploy/.env
+!deploy/.env.example
+.env

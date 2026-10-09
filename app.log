@@ -1,0 +1,70 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-09-05T15:07:30.852+08:00  INFO 33124 --- [鼎勤科技] [           main] cn.ck.plm.CkPlmApplication               : Starting CkPlmApplication v1.0.0-SNAPSHOT using Java 17.0.11 with PID 33124 (C:\Users\Chg10\Desktop\ck-plm\target\ck-plm-1.0.0-SNAPSHOT.jar started by Chg10 in C:\Users\Chg10\Desktop\ck-plm)
+2026-09-05T15:07:30.856+08:00  INFO 33124 --- [鼎勤科技] [           main] cn.ck.plm.CkPlmApplication               : The following 1 profile is active: "local"
+2026-09-05T15:07:33.045+08:00  INFO 33124 --- [鼎勤科技] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-09-05T15:07:33.067+08:00  INFO 33124 --- [鼎勤科技] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-05T15:07:33.070+08:00  INFO 33124 --- [鼎勤科技] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-09-05T15:07:33.120+08:00  INFO 33124 --- [鼎勤科技] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-05T15:07:33.122+08:00  INFO 33124 --- [鼎勤科技] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2204 ms
+2026-09-05T15:07:33.306+08:00  INFO 33124 --- [鼎勤科技] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-05T15:07:33.676+08:00  INFO 33124 --- [鼎勤科技] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49cb5030
+2026-09-05T15:07:33.679+08:00  INFO 33124 --- [鼎勤科技] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-05T15:07:34.008+08:00  INFO 33124 --- [鼎勤科技] [           main] cn.ck.plm.base.config.TenantConfig       : 多租户拦截器已注册到 SqlSessionFactory
+2026-09-05T15:07:34.037+08:00  INFO 33124 --- [鼎勤科技] [           main] c.c.plm.base.service.FileStorageService  : 文件存储根目录: C:\Users\Chg10\ck-plm\uploads
+2026-09-05T15:07:34.354+08:00  INFO 33124 --- [鼎勤科技] [           main] c.c.p.b.s.impl.DefaultNumberService      : 编码段策略已加载 5 个 Provider
+2026-09-05T15:07:34.795+08:00  INFO 33124 --- [鼎勤科技] [           main] cn.ck.plm.iam.security.AuthConfig        : 文件存储根目录: C:\Users\Chg10\ck-plm\uploads
+2026-09-05T15:07:35.094+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.b.e.EventRegistryAutoConfiguration : No deployment resources were found for autodeployment
+2026-09-05T15:07:35.304+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.c.e.i.a.DefaultAsyncTaskExecutor     : Creating thread pool queue of size 100
+2026-09-05T15:07:35.306+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.c.e.i.a.DefaultAsyncTaskExecutor     : Creating thread factory with naming pattern flowable-async-task-invoker-%d
+2026-09-05T15:07:35.309+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.c.e.i.a.DefaultAsyncTaskExecutor     : Creating executor service with corePoolSize 8, maxPoolSize 8 and keepAliveTime 5000
+2026-09-05T15:07:35.482+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : Found 2 Engine Configurators in total:
+2026-09-05T15:07:35.483+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2026-09-05T15:07:35.484+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2026-09-05T15:07:35.484+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : Executing beforeInit() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2026-09-05T15:07:35.495+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2026-09-05T15:07:36.943+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : Executing configure() of class org.flowable.eventregistry.spring.configurator.SpringEventRegistryConfigurator (priority:100000)
+2026-09-05T15:07:36.968+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.e.impl.EventRegistryEngineImpl       : EventRegistryEngine default created
+2026-09-05T15:07:36.971+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.SpringProcessEngineConfiguration   : Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000)
+2026-09-05T15:07:36.990+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.idm.engine.impl.IdmEngineImpl        : IdmEngine default created
+2026-09-05T15:07:37.045+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2026-09-05T15:07:37.084+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.e.impl.cmd.ValidateV5EntitiesCmd     : Total of v5 deployments found: 0
+2026-09-05T15:07:37.350+08:00  INFO 33124 --- [鼎勤科技] [           main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-09-05T15:07:37.552+08:00  INFO 33124 --- [鼎勤科技] [           main] cn.ck.plm.iam.security.AuthConfig        : 文件资源映射: /** -> file:///C:/Users/Chg10/ck-plm/uploads/
+2026-09-05T15:07:38.109+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.j.s.i.a.AbstractAsyncExecutor        : Starting up the async job executor [org.flowable.spring.job.service.SpringAsyncExecutor] for engine bpmn
+2026-09-05T15:07:38.126+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.s.c.DefaultAutoDeploymentStrategy    : Deploying resources [URL [jar:nested:/C:/Users/Chg10/Desktop/ck-plm/target/ck-plm-1.0.0-SNAPSHOT.jar/!BOOT-INF/classes/!/processes/plm-change-review.bpmn20.xml]] for engine org.flowable.engine.impl.ProcessEngineImpl@5e1e19af deployment name hint SpringBootAutoDeployment
+2026-09-05T15:07:38.127+08:00  INFO 33124 --- [鼎勤科技] [       Thread-3] o.f.j.s.i.a.ResetExpiredJobsRunnable     : starting to reset expired jobs for engine bpmn
+2026-09-05T15:07:38.129+08:00  INFO 33124 --- [鼎勤科技] [       Thread-1] o.f.j.s.i.a.AcquireAsyncJobsDueRunnable  : starting to acquire async jobs due for engine bpmn
+2026-09-05T15:07:38.129+08:00  INFO 33124 --- [鼎勤科技] [       Thread-2] o.f.j.s.i.a.AcquireTimerJobsRunnable     : starting to acquire async jobs due for engine bpmn
+2026-09-05T15:07:38.857+08:00  WARN 33124 --- [鼎勤科技] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-09-05T15:07:38.862+08:00  INFO 33124 --- [鼎勤科技] [           main] o.f.j.s.i.a.AbstractAsyncExecutor        : Shutting down the async job executor [org.flowable.spring.job.service.SpringAsyncExecutor] for engine bpmn
+2026-09-05T15:07:38.863+08:00  INFO 33124 --- [鼎勤科技] [uire-async-jobs] o.f.j.s.i.a.AcquireAsyncJobsDueRunnable  : stopped async job due acquisition for engine bpmn
+2026-09-05T15:07:38.864+08:00  INFO 33124 --- [鼎勤科技] [uire-timer-jobs] o.f.j.s.i.a.AcquireTimerJobsRunnable     : stopped async job due acquisition for engine bpmn
+2026-09-05T15:07:38.865+08:00  INFO 33124 --- [鼎勤科技] [et-expired-jobs] o.f.j.s.i.a.ResetExpiredJobsRunnable     : stopped resetting expired jobs for engine bpmn
+2026-09-05T15:07:38.886+08:00  INFO 33124 --- [鼎勤科技] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-05T15:07:38.892+08:00  INFO 33124 --- [鼎勤科技] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-05T15:07:38.909+08:00  INFO 33124 --- [鼎勤科技] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-05T15:07:38.928+08:00 ERROR 33124 --- [鼎勤科技] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+

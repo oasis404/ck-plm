@@ -1,0 +1,33 @@
+# ===== 换行符策略 =====
+# 容器与服务器均为 Linux，必须强制 LF，否则：
+#   1. deploy.sh 变成 CRLF 后，Linux 执行报「/bin/bash^M: bad interpreter」
+#   2. Dockerfile 的续行符被污染，构建直接失败
+#   3. YAML 文件解析异常
+
+# 默认：仓库内一律存 LF，检出时按平台转换
+* text=auto eol=lf
+
+# ===== 明确要求 LF 的文件类型 =====
+*.sh      text eol=lf
+Dockerfile text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.java    text eol=lf
+*.xml     text eol=lf
+*.sql     text eol=lf
+*.js      text eol=lf
+*.vue     text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+.properties text eol=lf
+
+# ===== 二进制文件，禁止文本转换 =====
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.jar     binary
+*.zip     binary
+*.pdf     binary
+*.bpmn20.xml text eol=lf

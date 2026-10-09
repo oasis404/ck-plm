@@ -1,0 +1,22 @@
+# Maven / 前端产物与日志：不参与镜像构建，避免污染构建上下文
+target/
+frontend/dist/
+frontend/node_modules/
+*.log
+
+# 本地私有配置（含数据库口令），严禁进镜像
+src/main/resources/application-local.yml
+application-local.yml
+
+# 版本控制与 IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+*.iml
+
+# 运行时与文档
+uploads/
+generated-images/
+*.md
+docs/
